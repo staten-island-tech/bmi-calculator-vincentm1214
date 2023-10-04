@@ -1,13 +1,23 @@
-function divide(a){
+// function getBMI(){
+//     return 
+// }
+
+
+
+
+
+
+
+function multiply(y , y){
+    console.log( y * y);
+    multiply(y * y)
+}
+
+function divide(x , y){
     console.log( x / y);
 }
-const x = Number(prompt("enter your weight in pounds"));
-const y = Number(prompt("enter your height in inches"));
+const x = Number(prompt("enter your weight in kilograms"));
+const y = Number(prompt("enter your height in centimeters"));
    divide(x, y);
-   test(;)
-   function multiply(b){
-    console.log( z * a);
-}
-const z = 703
-   multiply(z, a);
+  
 test();
