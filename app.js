@@ -1,27 +1,26 @@
-function getBMI(){
-    return weight / this.height
-    const weight = 
-    x = Number(prompt("enter your weight in kilograms"));
-    const height = 
-    y = Number(prompt("enter your height in centimeters"));
+const name = prompt("Enter your name");
+const weight = Number(prompt("Enter your weight in kilograms"));
+const height = Number(prompt("Enter your height in centimeters"));
+function BMI() {
+return (weight / (height / 100)**2);
 }
-function multiply(y,y)
-    console.log(y*y)
-function checkBMI
-function init() {
-    let BMI = getBMI(x, y);
-    checkBMI(BMI);
+const bmi = BMI();
+
+
+console.log("Your BMI is " + bmi)
+
+
+function result(BMI) {
+if (BMI < 18.5) {
+console.log("You're underweight")
+}
+else if (BMI >= 18.5 && x < 24.9) {
+console.log("You're fine")
+}
+else {
+console.log("You're overweight")
 }
 
 
-
-
-
-function divide(x , y){
-    console.log( x / y);
 }
-
-
-   divide(x, y);
-  
-test();
+result(BMI)
